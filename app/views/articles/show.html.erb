@@ -7,8 +7,8 @@
   <title>Document</title>
 </head>
 <body>
-  <h1>this is the home page of my blog</h1>
-  <%= link_to 'link to the about page', about_path =%>
-  <%= link_to 'link to my articles', articles_path =%>
+  <h1>showing article details</h1>
+  <p><strong>Title: </strong><%= @article.title %></p>
+  <p><strong>Description: </strong><%= @article.description %></p>
 </body>
 </html>
